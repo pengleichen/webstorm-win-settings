@@ -1,0 +1,75 @@
+<templateSet group="AngularJS ">
+  <template name="ngdlf" value="function (scope, element, attrs$ctrl$) {&#10;$END$    &#10;}" description="自定义指定的link函数" toReformat="false" toShortenFQNames="true">
+    <variable name="ctrl" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ngdc" value="directive('$directiveName$', function factory($injectables$) {&#10;  var directiveDefinitionObject = {   &#10;    $directiveAttrs$&#10;    compile: function compile(tElement, tAttrs, transclude) {    &#10;      $END$&#10;      return function (scope, element, attrs) {                    &#10;      }&#10;    }&#10;  };&#10;  return directiveDefinitionObject;&#10;})" description="定义带编译函数的指令" toReformat="false" toShortenFQNames="true">
+    <variable name="directiveName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="injectables" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="directiveAttrs" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ngdl" value="directive('$directiveName$', function($directiveDeps$) {&#10;&#10;    return function(scope, element, attrs$ctrl$) {&#10;        $END$&#10;    }&#10;});" description="定义只有link函数的指令" toReformat="false" toShortenFQNames="true">
+    <variable name="directiveName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="directiveDeps" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ctrl" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ngfor" value="angular.forEach($iterateOver$, function(value, key){&#10;  $END$    &#10;});" description="angular的foreach循环" toReformat="false" toShortenFQNames="true">
+    <variable name="iterateOver" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ngst" value="&lt;script type=&quot;text/ng-template&quot; id=&quot;$id$&quot;&gt;&#10;    $END$&#10;&lt;/script&gt;" description="定义templeUrl的script" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ngmo" value="angular.module('$moduleName$',[$moduleDependencies$])&#10;$END$;" description="创建angular应用" toReformat="false" toShortenFQNames="true">
+    <variable name="moduleName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="moduleDependencies" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ngmfa" value="factory('$factoryName$', function($dependencies$){&#10;  $END$&#10;})" description="使用factory定义服务" toReformat="false" toShortenFQNames="true">
+    <variable name="factoryName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="dependencies" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ngms" value="service('$serviceName$', function($injectables$) {&#10;    $END$&#10;})" description="使用service方法定义服务" toReformat="false" toShortenFQNames="true">
+    <variable name="serviceName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="injectables" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ngmfi" value="filter('$filterName$', function($injectables$) {&#10;    return function(input, $args$) {&#10;        $END$&#10;    };&#10;})" description="定义过滤器" toReformat="false" toShortenFQNames="true">
+    <variable name="filterName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="injectables" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="$f" value="$scope.$functionName$ = function($args$) {&#10;    $END$&#10;};" description="为作用域添加方法" toReformat="true" toShortenFQNames="true">
+    <variable name="functionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="$v" value="$scope.$variable$ = $value$;&#10;$END$" description="为作用域添加属性" toReformat="true" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="$w" value="$scope.$watch('$watchExpr$',function(newValue, oldValue){&#10;  $END$&#10;});" description="Angular监视器" toReformat="true" toShortenFQNames="true">
+    <variable name="watchExpr" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="$on" value="$scope.$on('$eventName$', function(event, $args$) {&#10;    $END$&#10;});" description="设置事件监听" toReformat="true" toShortenFQNames="true">
+    <variable name="eventName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ngmc" value="controller('$cname$', function($scope){&#10;    $statement$&#10;})" description="定义控制器" toReformat="false" toShortenFQNames="true">
+    <variable name="cname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="statement" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

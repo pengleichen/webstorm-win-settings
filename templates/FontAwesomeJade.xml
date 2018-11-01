@@ -1,0 +1,22 @@
+<templateSet group="FontAwesomeJade">
+  <template name="fa-hand-o-up" value="i.fa.fa-hand-o-up&#10;$END$" description="fa-hand-o-up icon" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="fa-scissors" value="i.fa.fa-scissors&#10;$END$" description="fa-scissors icon" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="fa-magic" value="i.fa.fa-magic&#10;$END$" description="fa-magic icon" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="fa-tencent-weibo" value="i.fa.fa-tencent-weibo&#10;$END$" description="fa-tencent-weibo icon" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+</templateSet>

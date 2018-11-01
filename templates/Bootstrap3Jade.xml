@@ -1,0 +1,13 @@
+<templateSet group="Bootstrap3Jade">
+  <template name="bs3-label" value="span.label $var1$&#10;$END$" description="Label" toReformat="false" toShortenFQNames="false">
+    <variable name="var1" expression="&quot;Label&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="bs3-button-group" value=".btn-group&#10;  button.btn.btn-default(type='button') Left&#10;  button.btn.btn-default(type='button') Middle&#10;  button.btn.btn-default(type='button') Right&#10;" description="Button group" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>

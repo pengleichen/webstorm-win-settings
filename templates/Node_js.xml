@@ -1,0 +1,16 @@
+<templateSet group="Node.js">
+  <template name="rget" value="router.get('$path$', function(req, res, next){&#10;    $statement$&#10;});" description="get路由" toReformat="false" toShortenFQNames="true">
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="statement" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rpost" value="router.post('$path$', function(req, res, next){&#10;    $statement$&#10;});" description="post路由" toReformat="false" toShortenFQNames="true">
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="statement" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

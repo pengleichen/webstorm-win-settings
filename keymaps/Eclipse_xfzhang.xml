@@ -1,0 +1,54 @@
+<keymap version="1" name="Eclipse_xfzhang" parent="Eclipse">
+  <action id="ChangeSignature" />
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="shift alt c" />
+  </action>
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="EditorDuplicateLines">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorScrollDown" />
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="shift alt a" />
+  </action>
+  <action id="GotoAction" />
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="ctrl alt slash" />
+  </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift ctrl insert" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
+  <action id="SavaAs" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="VcsHistory.ShowAllAffected" />
+</keymap>

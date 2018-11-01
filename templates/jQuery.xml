@@ -1,0 +1,15 @@
+<templateSet group="jQuery">
+  <template name="jfun" value="$(function(){&#10;  $statement$&#10;})" description="文档加载完成监听" toReformat="false" toShortenFQNames="true">
+    <variable name="statement" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="jclick" value="$('$selector$').click(function(){&#10;  $statement$&#10;});" description="绑定点击监听" toReformat="false" toShortenFQNames="true">
+    <variable name="selector" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="statement" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,8 @@
+<templateSet group="Vue">
+  <template name="nvue" value="new Vue({&#10;  el : '#$id$',&#10;  data : {&#10;    &#10;  },&#10;  methods : {&#10;    &#10;  },&#10;    &#10;  computed : {&#10;        &#10;  }&#10;})" description="创建vue对象" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

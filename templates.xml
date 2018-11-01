@@ -1,0 +1,44 @@
+<application>
+  <component name="TemplateSettings">
+    <option name="deletedKeys">
+      <list>
+        <TemplateKey>
+          <option name="groupName" value="JavaScript" />
+          <option name="key" value="itin" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="JavaScript" />
+          <option name="key" value="itar" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="JavaScript" />
+          <option name="key" value="us" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="JavaScript" />
+          <option name="key" value="defn" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AngularJS " />
+          <option name="key" value="ngc" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AngularJS " />
+          <option name="key" value="ngb" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AngularJS " />
+          <option name="key" value="ngm" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AngularJS " />
+          <option name="key" value="ngma" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AngularJS " />
+          <option name="key" value="$va" />
+        </TemplateKey>
+      </list>
+    </option>
+  </component>
+</application>
