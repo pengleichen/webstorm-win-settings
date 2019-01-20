@@ -12,9 +12,11 @@
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
+    <keyboard-shortcut first-keystroke="end" />
   </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
+    <keyboard-shortcut first-keystroke="home" />
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorScrollDown" />
