@@ -17,6 +17,10 @@
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorScrollDown" />
+  <action id="EditorSplitLine" />
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
