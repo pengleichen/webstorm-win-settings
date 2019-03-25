@@ -1,0 +1,15 @@
+<application>
+  <component name="libraryTable">
+    <library name="packages" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://D:/Devtools/packages" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://D:/Devtools/packages" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>
