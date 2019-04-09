@@ -5,4 +5,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="vscom" value="const $COMP_NAME$ = {&#10;  template: `&#10;    &lt;div&gt;$CONTENT$&lt;/div&gt;&#10;  `&#10;}" description="Create a Vue Simple Component" toReformat="false" toShortenFQNames="true">
+    <variable name="COMP_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
