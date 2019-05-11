@@ -1,5 +1,5 @@
 <templateSet group="React">
-  <template name="rrender" value="ReactDOM.render($component$, document.getElementById('example'))" description="渲染组件" toReformat="false" toShortenFQNames="true">
+  <template name="rrender" value="ReactDOM.render(&#10;  $component$&#10;  , document.querySelector('#example')&#10;)" description="渲染组件" toReformat="false" toShortenFQNames="true">
     <variable name="component" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
