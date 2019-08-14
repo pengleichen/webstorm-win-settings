@@ -1,5 +1,7 @@
 <templateSet group="JavaScript">
-  <template name="cons" value="console.log($content$)" description="console语句" toReformat="false" toShortenFQNames="true">
+  <template name="cons" value="console.log($METHOD$...$INDEX$, $content$)" description="console语句" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="INDEX" expression="lineNumber()" defaultValue="" alwaysStopAt="true" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
