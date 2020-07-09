@@ -1,4 +1,4 @@
-<code_scheme name="Default (1)" version="173">
+<code_scheme name="Kevin_Code" version="173">
   <option name="OTHER_INDENT_OPTIONS">
     <value>
       <option name="INDENT_SIZE" value="2" />
@@ -11,9 +11,6 @@
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
   </JSCodeStyleSettings>
-  <MarkdownNavigatorCodeStyleSettings>
-    <option name="RIGHT_MARGIN" value="72" />
-  </MarkdownNavigatorCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
     <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACKETS" value="true" />
     <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
